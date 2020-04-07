@@ -1,0 +1,13 @@
+C:\Users\HP\Desktop\projects\new lessons\0404\dz0404\bin\Debug\netcoreapp3.1\dz0404.exe
+C:\Users\HP\Desktop\projects\new lessons\0404\dz0404\bin\Debug\netcoreapp3.1\dz0404.deps.json
+C:\Users\HP\Desktop\projects\new lessons\0404\dz0404\bin\Debug\netcoreapp3.1\dz0404.runtimeconfig.json
+C:\Users\HP\Desktop\projects\new lessons\0404\dz0404\bin\Debug\netcoreapp3.1\dz0404.runtimeconfig.dev.json
+C:\Users\HP\Desktop\projects\new lessons\0404\dz0404\bin\Debug\netcoreapp3.1\dz0404.dll
+C:\Users\HP\Desktop\projects\new lessons\0404\dz0404\bin\Debug\netcoreapp3.1\dz0404.pdb
+C:\Users\HP\Desktop\projects\new lessons\0404\dz0404\obj\Debug\netcoreapp3.1\dz0404.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\projects\new lessons\0404\dz0404\obj\Debug\netcoreapp3.1\dz0404.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\projects\new lessons\0404\dz0404\obj\Debug\netcoreapp3.1\dz0404.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\projects\new lessons\0404\dz0404\obj\Debug\netcoreapp3.1\dz0404.AssemblyInfo.cs
+C:\Users\HP\Desktop\projects\new lessons\0404\dz0404\obj\Debug\netcoreapp3.1\dz0404.dll
+C:\Users\HP\Desktop\projects\new lessons\0404\dz0404\obj\Debug\netcoreapp3.1\dz0404.pdb
+C:\Users\HP\Desktop\projects\new lessons\0404\dz0404\obj\Debug\netcoreapp3.1\dz0404.genruntimeconfig.cache
