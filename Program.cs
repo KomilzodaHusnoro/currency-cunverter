@@ -6,7 +6,7 @@ namespace dz0404
     {
         static void Main(string[] args)
         {
-            Converter currency = new Converter () { usd = 10.22, eur = 11.11, rub = 0.141, usdToSomoni = 0.098, eurToSomoni = 0.090, rubToSomoni = 7.25};
+            Converter currency = new Converter () { usd = 10.18, eur = 11.13, rub = 0.14, usdToSomoni = 0.098, eurToSomoni = 0.090, rubToSomoni = 7.25};
             System.Console.WriteLine("Operation list: \n*1* --> somoni to other currency\n*2*--> any currency to comoni\nYour choise: ");
             int operation = int.Parse(Console.ReadLine());
             switch (operation)
