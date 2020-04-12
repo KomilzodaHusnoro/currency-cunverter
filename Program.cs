@@ -7,7 +7,7 @@ namespace dz0404
         static void Main(string[] args)
         {
             Converter currency = new Converter () { usd = 10.18, eur = 11.13, rub = 0.14, usdToSomoni = 0.098, eurToSomoni = 0.090, rubToSomoni = 7.25};
-            System.Console.WriteLine("Operation list: \n*1* --> somoni to other currency\n*2*--> any currency to comoni\nYour choise: ");
+            System.Console.WriteLine("Operation list: \n*1* --> somoni to other currency\n*2*--> any currency to somoni\nYour choise: ");
             int operation = int.Parse(Console.ReadLine());
             switch (operation)
             {
@@ -21,15 +21,21 @@ namespace dz0404
                     {
                         case 1: 
                         {   
+                            Console.ForegroundColor = ConsoleColor.Green;
                            Console.WriteLine(currency.changeToUsd(somoni)  + " Usd");
+                           Console.ForegroundColor = ConsoleColor.White;
                         } break;
                         case 2: 
                         {   
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine(currency.changeToEur(somoni) + "  Euro");
+                            Console.ForegroundColor = ConsoleColor.White;
                         } break;
                         case 3: 
                         {   
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine(currency.changeToRub(somoni) + " Rub");
+                            Console.ForegroundColor = ConsoleColor.White;
                         } break;   
 
                     }
@@ -43,21 +49,27 @@ namespace dz0404
                         case 1:
                         {
                             Console.Write("Enter amoung of USD: ");
+                            Console.ForegroundColor = ConsoleColor.Green;
                             double usd = double.Parse(Console.ReadLine());
                             System.Console.WriteLine(currency.changeUsd(usd) + " somoni");
+                            Console.ForegroundColor = ConsoleColor.White;
                         } break;
                         case 2:
                         {
                             Console.Write("Enter amoung of Eur: ");
+                            Console.ForegroundColor = ConsoleColor.Green;
                             double eur = double.Parse(Console.ReadLine());
                             System.Console.WriteLine(currency.changeEur(eur) + " somoni");
+                            Console.ForegroundColor = ConsoleColor.White;
 
                         }break;
                         case 3:
                         {
                             Console.Write("Enter amoung of Rub: ");
+                            Console.ForegroundColor = ConsoleColor.Green;
                             double rub = double.Parse(Console.ReadLine());
                             System.Console.WriteLine(currency.changeRub(rub) + " somoni");
+                            Console.ForegroundColor = ConsoleColor.White;
                         }break;
                     }
 
@@ -65,7 +77,6 @@ namespace dz0404
 
             }
             
-
         }
     }
 
